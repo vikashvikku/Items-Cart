@@ -42,7 +42,7 @@ function App() {
     } else {
       // alert...
       showAlert(true, "success", "Item added to the list");
-      const newItem = { id: new Date().getTime().toString, title: name };
+      const newItem = { id: new Date().getTime().toString(), title: name };
       setList([...list, newItem]);
       setName("");
     }
